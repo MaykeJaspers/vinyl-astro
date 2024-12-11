@@ -1,0 +1,10 @@
+---
+const API_URL = "http://localhost:1337/api/vinyls"; // Replace with your actual API endpoint
+let vinyls = [];
+
+const response = await fetch(API_URL);
+const jsonResponse = await response.json();
+vinyls = jsonResponse?.data || [];
+---
+
+

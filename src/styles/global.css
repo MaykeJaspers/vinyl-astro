@@ -1,0 +1,26 @@
+h1{
+    color: black;
+}
+
+body{
+    background-color: pink;
+}
+
+.vinyl-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+
+.vinyl-card{
+    background-color: white;
+    padding: .625rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.vinyl-card img{
+    width: 100%;
+    height: auto;
+}
